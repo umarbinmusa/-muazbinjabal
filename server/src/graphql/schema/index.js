@@ -31,8 +31,8 @@ type Query {
 }
 
 type Mutation {
-  signup(first_name: String!, email: String!, last_name: String!, dob: String!, address: String! password: String!, role: String!): AuthPayload!
-  login(username: String!, password: String!): AuthPayload!
+  signup(first_name: String!, regno: String! email: String!, last_name: String!, dob: String!, address: String! password: String!, role: String!): AuthPayload!
+  login(regno: String!, password: String!): AuthPayload!
   }
 
 

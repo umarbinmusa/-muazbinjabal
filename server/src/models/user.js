@@ -31,7 +31,6 @@ const userSchema = new mongoose.Schema({
   regno: {
     type: String,
     required: true,
-    unique: true,
   },
   password: {
     type: String,

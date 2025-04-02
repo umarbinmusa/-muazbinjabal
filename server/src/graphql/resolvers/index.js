@@ -26,7 +26,7 @@ const resolvers = {
   
   Mutation: {
     signup: async (_, { first_name, email, last_name, regno, dob, address, password, role }, { models }) => {
-      if (!email || !password || !role) {
+      if (!email || !password || !role || !first_name || !last_name || !dob || !regno || !address) {
         throw new AuthenticationError("All fields are required");
       }
       const existingUser = await models.User.findOne({ regno });
@@ -37,7 +37,7 @@ const resolvers = {
       return { token, user };
     },
     
-    login: async (_, { username, password }, { models }) => {
+    login: async (_, { regno, password }, { models }) => {
       const user = await models.User.findOne({ regno });
       if (!user || !(await argon2.verify(user.password, password))) {
         throw new AuthenticationError("Invalid credentials");
