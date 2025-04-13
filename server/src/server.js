@@ -2,7 +2,7 @@ import { ApolloServer } from 'apollo-server-express';
 import express from 'express';
 import mongoose from 'mongoose';
 import resolvers from './Graphql/resolvers/index';
-import typeDefs from './graphql/schema/index';
+import typeDefs from './Graphql/schema/index';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import jwt from "jsonwebtoken";

@@ -45,6 +45,9 @@ const resolvers = {
       const token = jwt.sign({ id: user.id, role: user.role }, JWT_SECRET_KEY, { expiresIn: "7d" });
       return { token, user };
     },
+
+    // Add class resolver
+    
     
     
      
