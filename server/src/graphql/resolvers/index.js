@@ -47,6 +47,11 @@ const resolvers = {
     },
 
     // Add class resolver
+    addclass: async (_, { name, teacher }, { models, user }) => {
+      if (!user || user.role !== "ADMIN") throw new ForbiddenError("Only admins can add Class");
+      return await models.Class.create({ name, teacher  });
+    },
+    
     
     
     

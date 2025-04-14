@@ -1,12 +1,13 @@
 import { ApolloServer } from 'apollo-server-express';
 import express from 'express';
 import mongoose from 'mongoose';
-import resolvers from './Graphql/resolvers/index';
+import resolvers from './graphql/resolvers/index';
 import typeDefs from './Graphql/schema/index';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import jwt from "jsonwebtoken";
 import User from "./models/user";
+import Class from "./models/class";
 
 dotenv.config();
 
@@ -76,7 +77,7 @@ const server = new ApolloServer({
   
     
     return {
-      models: { User }, // Pass models here
+      models: { User, Class }, // Pass models here
       user,// If using authentication middleware
     };
   }

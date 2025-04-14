@@ -16,6 +16,10 @@ type User {
   email: String!
   role: String! 
 }
+  type Class {
+  name: String!
+  teacher: String!
+  }
   
 type AuthPayload {
   token: String!
@@ -33,6 +37,7 @@ type Query {
 type Mutation {
   signup(first_name: String!, regno: String! email: String!, last_name: String!, dob: String!, address: String! password: String!, role: String!): AuthPayload!
   login(regno: String!, password: String!): AuthPayload!
+  addclass(name: String!, teacher: String!): Class
   }
 
 
