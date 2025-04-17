@@ -6,7 +6,8 @@ import React from 'react'
   return (
     <nav className="flex items-center justify-between mt-6">
     <div className="pt-2 font-bold ml-2.5 ">
-    <h3>MBJ</h3>
+    <img src="./images/logo.png"alt='' className="w-15  h-"/>
+      
             </div>
           
         <ul className=" md:flex space-x-16 mt-2 font-bold">
