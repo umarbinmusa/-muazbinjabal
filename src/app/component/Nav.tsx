@@ -4,7 +4,8 @@ import React from 'react'
 
  function NavBar() {
   return (
-    <nav className="flex items-center justify-between mt-6">
+    <div className=''>
+    <nav className="flex items-center justify-between mt-6 ">
     <div className="pt-2 font-bold ml-2.5 ">
     <img src="./images/logo.png"alt='' className="w-15  h-"/>
       
@@ -25,6 +26,7 @@ import React from 'react'
             E-Learning
         </a>
     </nav>
+    </div>
         
   );
 }
