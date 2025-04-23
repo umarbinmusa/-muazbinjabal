@@ -1,3 +1,4 @@
+import Footer from "./component/Footer";
 import Nav from "./component/Nav";
 import Mid from "./Mid";
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <Nav />
     </div>
     <Mid />
+    <Footer />
     </div>
     
     
