@@ -17,13 +17,13 @@ export default function Mid(){
         <p className='text-base text-gray-900 text-align: justify'>WE Give  THE BEST EDDUCATION FOR CHILDREN </p>
         <span className='inline-block bg-black text-white  px-10 py-5 rounded-full shadow-lg uppercase text-lg tracking-wide mt-5 ml-12'>CONTACT US</span>
         </div>
-        <img src="./images/stu.jpg"alt='' className="w-auto h-1/3 rounded-2xl"/>
+        <img src="./images/stu.jpg"alt='' className="w-auto  h-1/3 rounded-2xl"/>
       
       </div>
       <h1 className="text-center text-4xl">WHAT WE PROVIDE</h1>
       <div className="flex flex-col px-5 lg:flex-row   text-center  mt-3 lg:space-x-16 lg:p-10">
         
-        <div className="w-80 pt-2.5 mt-2.5 bg-black text-white p-5 rounded-xl">
+        <div className="w-80 pt-2.5 mt-2.5 bg-black text-white p-5 rounded-xl shadow-md">
             <h1 className="font-bold text-2xl">ISLAMIA SECTION</h1>
             <h2>4:00pm - 6:00pm</h2>
             <h3>monday - wednesday</h3>

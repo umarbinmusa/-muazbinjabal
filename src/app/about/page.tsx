@@ -1,5 +1,5 @@
-import Nav from "./Nav";
-export default function About() {
+import Nav from "../Nav";
+ function About() {
     return(
       <div className="">
         <div className="">
@@ -8,3 +8,4 @@ export default function About() {
       </div>
     );
 }
+export default About;

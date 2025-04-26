@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function NavBar() {
   return (
-    <div className="w-full shadow-md">
+    <div className="w-full shadow-md lg:fixed">
       <nav className="flex items-center justify-between px-6 py-4">
 
         <div className="flex items-center">
@@ -13,9 +13,9 @@ function NavBar() {
 
      
         <ul className="hidden md:flex space-x-8 font-bold">
-          <li className="hover:text-green-400 cursor-pointer">Home</li>
+        <Link href="/">  <li className="hover:text-green-400 cursor-pointer">Home</li></Link>
           <li className="hover:text-green-400 cursor-pointer">
-            <Link href="./About">About</Link>
+            <Link href="/about">About</Link>
           </li>
           <li className="hover:text-green-400 cursor-pointer">Contact</li>
           <li className="hover:text-green-400 cursor-pointer">Mission</li>
@@ -25,7 +25,7 @@ function NavBar() {
 
         
         <Link
-          href="/get-started"
+          href="/mid"
           className="hidden md:block bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition"
         >
           E-Learning
