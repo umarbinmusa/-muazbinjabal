@@ -19,8 +19,8 @@ function NavBar() {
           </li>
           <li className="hover:text-green-400 cursor-pointer">Contact</li>
          <Link href="/libry"><li className="hover:text-green-400 cursor-pointer">E-Libry</li></Link> 
-          <li className="hover:text-green-400 cursor-pointer">Services</li>
-          <li className="hover:text-green-400 cursor-pointer">Update</li>
+         <Link href="/login"> <li className="hover:text-green-400 cursor-pointer">Login</li> </Link>
+          <li className="hover:text-green-400 cursor-pointer">MUBJOSA </li>
         </ul>
 
         
