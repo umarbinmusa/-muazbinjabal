@@ -13,9 +13,9 @@ export default function Footer() {
             Copyright &copy; DEVSTACK ICT SOLUTIONS
           </div>
           
-          <div>
-            <img src="./images/logo.png" className="bg-white" alt="" />
-          </div>
+          {/*  <div>
+           //* <img src="./images/logo.png" className="bg-white" alt="" />//
+          </div> */} 
           
           
         </div>

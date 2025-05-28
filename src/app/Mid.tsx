@@ -8,16 +8,16 @@ export default function Mid(){
 
         <div className='mt-0 text-center lg:text-left'>
         <h1 className='font-black text-3xl lg:text-5xl'>
-         MUA'Z BIN JABAL
+         Daruttanzil 
          <br />
-        <p className="ml-14">CENTER</p>
+        <p className="ml-6">Academy</p>
         
           </h1>
         <h2 className='text-base text-gray-900 text-align: justify'>WE PROVIDE ALL SOLUTIONS TO YOUR CHILDRENS  PROBLEMS</h2>
         <p className='text-base text-gray-900 text-align: justify'>WE Give  THE BEST EDDUCATION FOR CHILDREN </p>
         <span className='inline-block bg-black text-white  px-10 py-5 rounded-full shadow-lg uppercase text-lg tracking-wide mt-5 ml-12'>CONTACT US</span>
         </div>
-        <img src="./images/stu.jpg"alt='' className="w-auto  h-1/3 rounded-2xl"/>
+        <img src="./images/bann.jpg"alt='' className="w-auto pt-5  h-1/3 rounded-2xl"/>
       
       </div>
       <h1 className="text-center text-4xl">WHAT WE PROVIDE</h1>
@@ -49,19 +49,15 @@ export default function Mid(){
       </div>
       <h1 className="text-center text-2xl font-bold mt-10">GALLERIES</h1>
       <div className="grid grid-cols-4 gap-4 mt-8">
-        <div className=""> <img src="./images/stu.jpg"alt='' className=" rounded-2xl"/></div>
-        <div className=""> <img src="./images/1.jpg"alt='' className=" rounded-2xl"/></div>
-        <div className=""> <img src="./images/2.jpg"alt='' className=" rounded-2xl"/></div>
-        <div className=""> <img src="./images/3.jpg"alt='' className=" rounded-2xl"/></div>
-        <div className=""> <img src="./images/4.jpg"alt='' className=" rounded-2xl"/></div>
-        <div className=""> <img src="./images/5.jpg"alt='' className=" rounded-2xl"/></div>
-        <div className=""> <img src="./images/6.jpg"alt='' className=" rounded-2xl"/></div>
-        <div className=""> <img src="./images/7.jpg"alt='' className=" rounded-2xl"/></div>
-        <div className=""> <img src="./images/8.jpg"alt='' className=" rounded-2xl"/></div>
-        <div className=""> <img src="./images/2.jpg"alt='' className=" rounded-2xl"/></div>
-        <div className=""> <img src="./images/10.jpg"alt='' className=" rounded-2xl"/></div>
-        <div className=""> <img src="./images/2.jpg"alt='' className=" rounded-2xl"/></div>
-
+        <div className=""> <img src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
+        <div className=""> <img src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
+        <div className=""> <img src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
+        <div className=""> <img src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
+        <div className=""> <img src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
+        <div className=""> <img src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
+        <div className=""> <img src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
+        <div className=""> <img src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
+        
       </div>
       </div>
       

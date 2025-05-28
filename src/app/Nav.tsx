@@ -7,9 +7,9 @@ function NavBar() {
     <div className="w-full shadow-md lg:fixed">
       <nav className="flex items-center justify-between px-6 py-4">
 
-        <div className="flex items-center">
+      {/*  <div className="flex items-center">
           <Image src="/images/logo.png" alt="Logo" width={50} height={50} />
-        </div>
+        </div>*/} 
 
      
         <ul className="hidden md:flex space-x-8 font-bold">
