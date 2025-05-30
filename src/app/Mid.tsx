@@ -1,3 +1,6 @@
+import Image from 'next/image';
+
+
 export default function Mid(){
     return(
         <div>
@@ -17,7 +20,7 @@ export default function Mid(){
         <p className='text-base text-gray-900 text-align: justify'>WE Give  THE BEST EDDUCATION FOR CHILDREN </p>
         <span className='inline-block bg-black text-white  px-10 py-5 rounded-full shadow-lg uppercase text-lg tracking-wide mt-5 ml-12'>CONTACT US</span>
         </div>
-        <img src="./images/bann.jpg"alt='' className="w-auto pt-5  h-1/3 rounded-2xl"/>
+        <Image src="./images/bann.jpg"alt='' className="w-auto pt-5  h-1/3 rounded-2xl"/>
       
       </div>
       <h1 className="text-center text-4xl">WHAT WE PROVIDE</h1>
@@ -49,14 +52,14 @@ export default function Mid(){
       </div>
       <h1 className="text-center text-2xl font-bold mt-10">GALLERIES</h1>
       <div className="grid grid-cols-4 gap-4 mt-8">
-        <div className=""> <img src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
-        <div className=""> <img src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
-        <div className=""> <img src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
-        <div className=""> <img src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
-        <div className=""> <img src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
-        <div className=""> <img src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
-        <div className=""> <img src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
-        <div className=""> <img src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
+        <div className=""> <Image src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
+        <div className=""> <Image src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
+        <div className=""> <Image src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
+        <div className=""> <Image src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
+        <div className=""> <Image src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
+        <div className=""> <Image src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
+        <div className=""> <Image src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
+        <div className=""> <Image src="./images/daruttanzil.jpg"alt='' className=" rounded-2xl"/></div>
         
       </div>
       </div>

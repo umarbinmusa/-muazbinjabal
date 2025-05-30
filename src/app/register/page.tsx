@@ -1,11 +1,11 @@
-
+import Image from 'next/image';
 
 function Login() {
     return(
         <div className="flex items-center justify-center ">
         <div className="flex min-h-screen">
           <div className=" flex-shrink flex items-center justify-center">
-            <img src="./images/logo.png" alt="" className="m-10" />
+            <Image src="./images/logo.png" alt="" className="m-10" />
           </div>
           <div className="flex-[2] flex-shrink flex flex-col bg-white   items-start ml-80 justify-center">
             <div className="mb-7 text-center ml-40">

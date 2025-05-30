@@ -1,5 +1,6 @@
 import Nav from "../Nav";
 import Footer from "../component/Footer";
+import Image from 'next/image';
 
 function Login() {
     return(
@@ -7,7 +8,7 @@ function Login() {
             <Nav />
         <div className="flex min-h-screen">
           <div className=" flex-shrink flex items-center justify-center">
-            <img src="./images/logo.png" alt="" className="m-30 pl-8" />
+            <Image src="./images/logo.png" alt="" className="m-30 pl-8" />
           </div>
           <div className="flex-[2] flex-shrink flex flex-col bg-white   items-start ml-80 justify-center">
             <div className="mb-7 text-center ml-40">
