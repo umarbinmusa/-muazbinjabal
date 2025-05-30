@@ -23,7 +23,7 @@ import Nav from "../Nav";
            quidem pariatur et, rem impedit dolorum <br/> facilis quos laboriosam! Nihil a ducimus possimus
             esse <br/>at facilis ipsum saepe vitae!</p>
       </div>
-      <img src="./images/malan1.jpg"alt='' className="  rounded-2xl"/>
+      <img src="./images/m.jpg"alt='' className="  rounded-2xl"/>
     
     </div>
     <Footer/>
